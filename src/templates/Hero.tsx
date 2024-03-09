@@ -16,7 +16,7 @@ const Hero = () => (
         </div>
       }>
         <li>
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="https://app.wedability.com/">
             <Button lg>Log In</Button>
           </Link>
         </li>
@@ -36,7 +36,7 @@ const Hero = () => (
         }
         description="Discover the efficient platform to plan all of your wedding needs"
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="https://app.wedability.com/">
             <Button xl>Start Planning Today</Button>
           </Link>
         }

@@ -3,13 +3,16 @@ import Link from 'next/link';
 import { Background } from '../background/Background';
 import { CenteredFooter } from '../footer/CenteredFooter';
 import { Section } from '../layout/Section';
-import { Logo } from './Logo';
+// import { Logo } from './Logo';
 
 const Footer = () => (
-  <Background color="bg-gray-100">
+  <Background color="#FFEFF2">
     <Section>
       <CenteredFooter
-        logo={<Logo />}
+        logo={
+        <div className='font-bold italic text-2xl text-[#B76E79]'>
+          Wedability
+        </div>}
         iconList={
           <>
             <Link href="/">

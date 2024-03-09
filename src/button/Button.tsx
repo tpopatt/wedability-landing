@@ -2,15 +2,18 @@ import className from 'classnames';
 
 type IButtonProps = {
   xl?: boolean;
+  lg?: boolean;
   children: string;
 };
 
 const Button = (props: IButtonProps) => {
   const btnClass = className({
     btn: true,
+    'px-4 py-1': props.lg,
     'btn-xl': props.xl,
-    'btn-base': !props.xl,
-    'btn-primary': true,
+    // 'btn-primary': true,
+    "bg-[#B76E79]": true,
+    "text-white": true,
   });
 
   return (

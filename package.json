@@ -6,7 +6,7 @@
     "build": "next build",
     "start": "next start",
     "build-stats": "cross-env ANALYZE=true npm run build",
-    "build-prod": "mkdir -p out && run-s clean build",
+    "build-prod": "next build && next export -o out && run-s clean build",
     "clean": "rimraf .next .swc out",
     "lint": "next lint",
     "format": "next lint --fix && prettier '**/*.{json,yaml}' --write --ignore-path .gitignore",

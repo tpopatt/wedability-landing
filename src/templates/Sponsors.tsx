@@ -5,11 +5,11 @@ import Image from 'next/image';
 const Sponsors = () => (
     <Image
         src="/assets/images/better-stack-dark.png"
-        alt="Better Stack"
-        width={2900}
-        height={2290}
-        className='px-4 md:px-32'
-      />
+      alt="Better Stack"
+      width={2900}
+      height={2290}
+      className='rounded-lg px-4 drop-shadow-xl md:px-32'
+    />
 );
 
 export { Sponsors };

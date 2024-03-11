@@ -14,6 +14,9 @@ module.exports = {
       '6xl': '4rem',
     },
     extend: {
+      boxShadow: {
+        'image-shadow': '0 0 10px 10px rgba(0, 0, 0, 0.3);',
+      },
       colors: {
         primary: {
           100: '#E6F6FE',

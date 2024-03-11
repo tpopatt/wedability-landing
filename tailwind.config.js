@@ -15,7 +15,7 @@ module.exports = {
     },
     extend: {
       boxShadow: {
-        'image-shadow': '0 0 10px 10px rgba(0, 0, 0, 0.3);',
+        'image-shadow': '0 0 50px 0px rgba(0, 0, 0, 0.05);',
       },
       colors: {
         primary: {

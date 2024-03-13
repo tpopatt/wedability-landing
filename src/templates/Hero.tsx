@@ -11,8 +11,8 @@ const Hero = () => (
   <Background color="#FFEFF2">
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={
-        <div className='font-bold italic text-2xl text-[#B76E79]'>
-          Wedability
+        <div>
+          <a className='text-2xl font-bold italic text-[#B76E79]' href="https://app.wedability.com/">Wedability</a>
         </div>
       }>
         <li>
@@ -36,7 +36,7 @@ const Hero = () => (
         }
         description="Discover the efficient platform to plan all of your wedding needs"
         button={
-          <Link href="https://app.wedability.com/">
+          <Link href="https://app.wedability.com/signup">
             <Button xl>Start Planning Today</Button>
           </Link>
         }
